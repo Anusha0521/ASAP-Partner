@@ -3,13 +3,6 @@ import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-// eslint-disable-next-line no-unused-vars
-// import {
-//   faHome,
-//   faInfoCircle,
-//   faBriefcase,
-//   faAddressBook
-// } from "@fortawesome/free-solid-svg-icons";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -40,7 +33,6 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button> Sign Up</button>
         </ul>
       </nav>
     );
