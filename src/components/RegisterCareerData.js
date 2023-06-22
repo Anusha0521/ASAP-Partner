@@ -6,7 +6,8 @@ function RegisterCareerData(props) {
       <div className="r-image">
         <img src={props.image} alt="images" />
       </div>
-      <h4>{props.heading}</h4>
+      {/* <h4>{props.heading}</h4> */}
+      <button>{props.button}</button>
       <p>{props.text}</p>
     </div>
   );
