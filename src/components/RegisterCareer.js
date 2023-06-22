@@ -13,22 +13,26 @@ function RegisterCareer() {
       <div className="registerCard">
         <RegisterCareerData
           image={painter1}
-          heading="Painter"
+          // heading="Painter"
+          button="Painter"
           text="Know Painting? We have an opportunity for you."
         />
         <RegisterCareerData
           image={plumber1}
-          heading="Plumber"
+          // heading="Plumber"
+          button="Plumber"
           text="Know Plumbing? We have an opportunity for you."
         />
         <RegisterCareerData
           image={electrician}
-          heading="Electrician"
+          // heading="Electrician"
+          button="Electrician"
           text="Know Electricals? We have an opportunity for you."
         />
         <RegisterCareerData
           image={clean}
-          heading="Cleaner"
+          // heading="Cleaner"
+          button="Cleaner"
           text="Know Cleaning? We have an opportunity for you."
         />
       </div>
