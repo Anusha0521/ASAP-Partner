@@ -1,17 +1,13 @@
-import Hero from "../components/Hero";
 import Footer from "../components/Footer";
+import Login from "../components/Login";
 
 function SignUp() {
   return (
     <>
-      <Hero
-        cName="hero-mid "
-        // heroImg={AboutImg}
-        title="SignUp"
-        btnClass="hide"
-      />
+      <Login />
       <Footer />
     </>
   );
 }
 export default SignUp;
+
