@@ -14,25 +14,33 @@ function RegisterCareer() {
         <RegisterCareerData
           image={painter1}
           // heading="Painter"
-          button="Painter"
+          buttonText="Painter"
+          url="/painter"
+          btnClass="show"
           text="Know Painting? We have an opportunity for you."
         />
         <RegisterCareerData
           image={plumber1}
           // heading="Plumber"
-          button="Plumber"
+          buttonText="Plumber"
+          url="/plumber"
+          btnClass="show"
           text="Know Plumbing? We have an opportunity for you."
         />
         <RegisterCareerData
           image={electrician}
           // heading="Electrician"
-          button="Electrician"
-          text="Know Electricals? We have an opportunity for you."
+          buttonText="Electrician"
+          url="/electrician"
+          btnClass="show"
+          text="Know Electrical? We have an opportunity for you."
         />
         <RegisterCareerData
           image={clean}
           // heading="Cleaner"
-          button="Cleaner"
+          buttonText="Cleaner"
+          url="/cleaner"
+          btnClass="show"
           text="Know Cleaning? We have an opportunity for you."
         />
       </div>
