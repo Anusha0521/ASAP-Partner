@@ -7,8 +7,11 @@ function RegisterCareerData(props) {
         <img src={props.image} alt="images" />
       </div>
       {/* <h4>{props.heading}</h4> */}
-      <button>{props.button}</button>
-      <p>{props.text}</p>
+      <a href={props.url} className={props.btnClass}>
+        {props.buttonText}
+      </a>
+      {/* <button>{props.button}</button> */}
+      <h4>{props.text}</h4>
     </div>
   );
 }
